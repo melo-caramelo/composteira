@@ -100,6 +100,10 @@ nav {
   font-weight: 600;
   font-family: 'media';
   text-align: center;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #51df6e;
 }
 
 .description {
@@ -161,6 +165,25 @@ nav {
 
   .mobile-menu {
     display: block;
+  }
+
+  .image{
+    width: 300px;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+
+  .description{
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .description2{
+    margin-top: 20px;
+    width: 300px;
+    font-size: 15px;
   }
 }
 

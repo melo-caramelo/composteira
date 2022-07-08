@@ -119,6 +119,9 @@ nav {
   font-family: 'media';
   text-align: left;
   margin-top: 27%;
+  border-bottom: 2px solid #51df6e;
+  margin-right: auto;
+  width: max-content;
 }
 
 .description {
@@ -137,6 +140,9 @@ nav {
   font-family: 'media';
   text-align: left;
   margin-top: 2%;
+  border-bottom: 2px solid #51df6e;
+  margin-right: auto;
+  width: max-content;
 }
 
 .description2 {
@@ -157,6 +163,7 @@ nav {
 @media (max-width: 999px) {
   body {
     overflow-x: hidden;
+    background-color: #1E5128;
   }
 
   .nav-list {
@@ -180,6 +187,59 @@ nav {
 
   .mobile-menu {
     display: block;
+  }
+
+  .container{
+    display: block;
+  }
+
+  .right-side{
+    margin-top: -170px;
+  }
+
+  .image{
+    margin-top: 80px;
+  }
+
+  .title{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description{
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title2{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description2{
+    font-size: 15px;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media (max-width: 500px){
+  .right-side{
+    margin-top: -80px;
+  }
+
+  
+  .title2{
+    margin-top: 30px;
+    font-size: 35px;
   }
 }
 

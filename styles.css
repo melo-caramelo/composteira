@@ -229,6 +229,11 @@ nav {
   .mobile-menu {
     display: block;
   }
+
+  .contianer{
+    display: block;
+  }
+
 }
 
 .nav-list.active {
